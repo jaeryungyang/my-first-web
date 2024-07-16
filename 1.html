@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>나를 소개합니다.</title>
+    <meta charset="utf-8">
+
+    <style>
+        div {
+            border: 5px solid gray;
+            display: grid;
+            grid-template-columns: 100px  1fr;
+            
+        }
+        #gri{
+            border: 5px solid pink;
+        }
+        @media
+        (max-width:700px){
+            #gri{
+                display:none
+                ;
+            }
+        }
+        h1 {
+            text-align: center;
+            border-width: 5px;
+            background-color:coral;
+            border-style:dashed
+             ;
+    
+        }
+        a {
+            color: aqua;
+            text-decoration:
+            overline;
+
+        }
+        .korea {
+            color: darkgreen;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>저를 소개합니다.</h1>
+    
+
+    <ul>
+        <li>이름:양재령 </li>
+        <img src="img2.webp" width='50'>
+        <li>학교:청라고</li>
+        <li>나이:18</li>
+        <li>좋아하는것</li>
+    </ul>
+  
+    <ol>
+        <li>게임</li>
+        <li>인터넷 방송 시청</li>
+        <img src="3.png" width='50'>
+    </ol>
+    <div id="gri">
+        <div>didwofud</div>
+        <div>wofud</div>
+    </div>
+    <input type="button"
+    value="day" onclick="
+    if(document.querySelector('body').dataset.mode ===
+        'night')
+        {
+        document.querySelector
+        ('body').style.backgroundColor='white';
+        document.
+        querySelector
+        ('body').style.
+        color='black'
+
+        document.querySelector
+        ('body').dataset.
+        mode='day';
+        this.value='day'
+        }
+    else(document.querySelector('body').dataset.mode ===
+        'day')
+        {
+        document.querySelector
+        ('body').style.backgroundColor='black';
+        document.
+        querySelector
+        ('body').style.
+        color='white'
+
+        document.querySelector
+        ('body').dataset.
+        mode='night';
+        this. typeof. globalThis
+        this.value ='night'
+    }
+    ">
+</body>
+
+</html>
